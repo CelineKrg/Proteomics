@@ -1,5 +1,4 @@
 import re
-from .cleavage_patterns import enzyme_cleavage_patterns
 
 def digest_protein_sequence(protein_seq, cleave_pattern):
     """
