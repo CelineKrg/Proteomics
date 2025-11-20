@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "simulation of: protein digestion, liquid chromatography, mass spectroscopy"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Celine Krogmann", emaiol = celine.krogmann@stud.uni-heidelberg.de }]
+authors = [{ name = "Celine Krogmann", email = "celine.krogmann@stud.uni-heidelberg.de"}]
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["Proteomics"]
+include = ["Proteosom"]
