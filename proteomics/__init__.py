@@ -9,3 +9,10 @@ from .liquid_chromatography import (
     plot_retention_time, 
     select_retention_time_window
 )
+from .mass_spectra_simulation import (
+    calculate_mol_mass,
+    calculate_mol_mass_collection, 
+    calculate_mz_collection, 
+    plot_spectrum,
+    fragment_peptide
+)   
